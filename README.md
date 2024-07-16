@@ -29,4 +29,11 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/sahaalaf/weather-app.git
+2. **Navigate to the project directory**
+   cd weather-app
+3. **Install dependencies**
+   npm install
+4. **Create a .env file in the root directory and add your OpenWeatherMap API key**
+   REACT_APP_API_KEY=your_api_key_here
+

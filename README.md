@@ -1,8 +1,32 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and user-friendly weather application built using React, Luxon, and React Toastify. This application fetches weather data from the OpenWeatherMap API and displays current weather conditions, hourly forecasts, and daily forecasts.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Current Weather**: Displays the current temperature, feels-like temperature, minimum and maximum temperatures, humidity, wind speed, weather details, and an icon representing the weather conditions.
+- **Hourly Forecast**: Provides the temperature, weather icon, and time for the next 5 hours.
+- **Daily Forecast**: Shows the temperature, weather icon, and day for the upcoming days.
+- **Error Handling**: Utilizes toast notifications to alert users of any errors encountered while fetching data.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Luxon**: A library for working with dates and times.
+- **React Toastify**: A library for adding notifications to your app.
+- **OpenWeatherMap API**: An API for accessing weather data.
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- **Node.js** and **npm** must be installed on your machine.
+- Obtain an API key from [OpenWeatherMap](https://home.openweathermap.org/users/sign_up).
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/weather-app.git
